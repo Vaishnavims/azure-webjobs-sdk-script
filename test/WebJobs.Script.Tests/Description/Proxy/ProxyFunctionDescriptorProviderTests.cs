@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Azure.AppService.Proxy.Client.Contract;
+using Microsoft.Azure.AppService.Proxy.Client;
 using Microsoft.Azure.WebJobs.Script.Config;
 using Microsoft.Azure.WebJobs.Script.Description;
 using Microsoft.Azure.WebJobs.Script.Eventing;
@@ -16,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.WebJobs.Script.Tests;
 using Moq;
 using Xunit;
+using Microsoft.Azure.AppService.Proxy.Common.Client;
 
 namespace Microsoft.Azure.WebJobs.Script.Tests
 {

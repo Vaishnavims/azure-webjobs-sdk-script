@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26906.1
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 15.0.0.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16351B76-87CA-4A8C-80A1-3DD83A0C4AA6}"
 EndProject
@@ -310,6 +310,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJobs.Script.Tests.Integr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJobs.Script.Grpc", "src\WebJobs.Script.Grpc\WebJobs.Script.Grpc.csproj", "{38920568-003E-448F-963B-41B739D1E01C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.AppService.Proxy.Client", "..\..\..\onegit\AAPT\Antares\Gibraltar\src\Microsoft.Azure.AppService.Proxy.Client\Microsoft.Azure.AppService.Proxy.Client.csproj", "{5E58A57F-9E72-4B36-B212-501F38EE4402}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.AppService.Proxy.Common", "..\..\..\onegit\AAPT\Antares\Gibraltar\src\Microsoft.Azure.AppService.Proxy.Common\Microsoft.Azure.AppService.Proxy.Common.csproj", "{AE14DB56-C68C-4304-BC0C-76D4219FDF62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.AppService.Proxy.Runtime", "..\..\..\onegit\AAPT\Antares\Gibraltar\src\Microsoft.Azure.AppService.Proxy.Runtime\Microsoft.Azure.AppService.Proxy.Runtime.csproj", "{22CB60CC-D25C-47AF-86BD-4F3D93996EAD}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		test\WebJobs.Script.Tests.Shared\WebJobs.Script.Tests.Shared.projitems*{35c9ccb7-d8b6-4161-bb0d-bcfa7c6dcffb}*SharedItemsImports = 13
@@ -351,6 +357,18 @@ Global
 		{38920568-003E-448F-963B-41B739D1E01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38920568-003E-448F-963B-41B739D1E01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38920568-003E-448F-963B-41B739D1E01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E58A57F-9E72-4B36-B212-501F38EE4402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E58A57F-9E72-4B36-B212-501F38EE4402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E58A57F-9E72-4B36-B212-501F38EE4402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E58A57F-9E72-4B36-B212-501F38EE4402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE14DB56-C68C-4304-BC0C-76D4219FDF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE14DB56-C68C-4304-BC0C-76D4219FDF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE14DB56-C68C-4304-BC0C-76D4219FDF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE14DB56-C68C-4304-BC0C-76D4219FDF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CB60CC-D25C-47AF-86BD-4F3D93996EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CB60CC-D25C-47AF-86BD-4F3D93996EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CB60CC-D25C-47AF-86BD-4F3D93996EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CB60CC-D25C-47AF-86BD-4F3D93996EAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,8 +4,8 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Azure.AppService.Proxy.Client.Contract;
 using Microsoft.Extensions.Logging;
+using Microsoft.Azure.AppService.Proxy.Common.Client;
 
 namespace Microsoft.Azure.WebJobs.Script.Description
 {
